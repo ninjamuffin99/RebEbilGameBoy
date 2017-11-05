@@ -3,14 +3,8 @@
 
 void main()
 {
-	while (1)
-	{
-		if (joypad() == J_A)
-		{
-			printf("\nLOL");
-		}
-		delay(100);
-	}
-	
-	printf("shoutouts To simple flispss");
+	printf("cool beans baby");
+	waitpad(J_A);
+	printf("\nlol");
+	printf("\nshoutouts To simple flispss");
 }
